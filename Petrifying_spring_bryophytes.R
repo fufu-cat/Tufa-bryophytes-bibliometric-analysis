@@ -67,7 +67,7 @@ Asia
 library(bibliometrix)
 biblioshiny() #Importantly, you can access data analysis results via the function’s interactive browsing window.
 library(tidyverse)
-metadata <- convert2df(file="D:/桌面/周园园博士资料/11 zyy_综述/tufa_moss_bibliometrix/scopus.bib",
+metadata <- convert2df(file="D:/桌面/scopus.bib",
                        dbsource = "scopus", format = "bibtex",remove.duplicates = TRUE)
 #write_excel_csv(metadata, "scopus_articles_metadata.csv")
 missingData(metadata)
@@ -335,6 +335,7 @@ Thematic_trends_p
 
 #ggsave(filename = "Thematic_trends.pdf", plot = Thematic_trends1, device = "pdf", width = 14, height = 18, units = "cm", dpi = 300) 
 #(fig. 7c) end
+
 
 
 
