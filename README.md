@@ -6,11 +6,11 @@ This project contains the data and code for the bibliometric analysis of literat
 Tufa-depositing springs are unique ecosystems often recognized for their geoheritage value. Bryophytes play a crucial role as functional regulators within these systems. This study provides a systematic bibliometric perspective on ecosystem services and heritage value, synthesizing global research trends.
 
 ## Methods
-- **Data Source:** Scopus Database
+- **Data Source:** Scopus Database 
 - **Analysis Tool:** `bibliometrix` package (R)
 
 ## Repository Structure
-- `scripts/`: R scripts for data cleaning, analysis, and visualization
+- `scripts/`: Petrifying_spring_bryophytes R scripts for data cleaning, analysis, and visualization
 - `data/`: Raw and processed bibliometric data
 
 ## Citation
